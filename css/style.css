@@ -25,6 +25,7 @@ a:hover{
 .span-paragrafo2 {
     font-weight: bold;
     color: rgba(0, 0, 0, 0.7);
+    text-decoration: underline dashed;
 }
 
 
@@ -60,7 +61,7 @@ nav {
     padding: 1rem;
 }
 
-nav li, ul li i, ul li span{
+li, ul li i, ul li span, a[href="https://github.com/steffaneleal"] {
     list-style-type: none;
     color: #3B1C32;
 }
